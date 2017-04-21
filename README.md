@@ -12,6 +12,6 @@ oss-admin是spring boot应用的一个监控和管理平台，作为oss-admin的
 ### 引入依赖
 ####
     <dependency>
-        <groupId>com.yirendai.oss.lib</groupId>
+        <groupId>com.yirendai.infra</groupId>
         <artifactId>oss-lib-adminclient-spring-boot-${spring-boot.version}</artifactId>
     </dependency>

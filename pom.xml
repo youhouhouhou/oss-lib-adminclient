@@ -5,30 +5,31 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.yirendai.infra</groupId>
+        <groupId>cn.home1</groupId>
         <artifactId>oss-build</artifactId>
-        <version>1.0.8.OSS-SNAPSHOT</version>
+        <version>1.0.9.OSS</version>
     </parent>
 
     <artifactId>oss-lib-adminclient</artifactId>
+    <description>Spring boot admin client</description>
     <name>oss-lib-adminclient</name>
     <packaging>pom</packaging>
-    <version>1.0.7.OSS-SNAPSHOT</version>
     <url>https://github.com/home1-oss/oss-lib-adminclient</url>
+    <version>1.0.7.OSS-SNAPSHOT</version>
 
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/home1-oss/oss-lib-adminclient</url>
+    </ciManagement>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/home1-oss/oss-lib-adminclient/issues</url>
+    </issueManagement>
     <scm>
         <connection>scm:git:https://github.com/home1-oss/oss-lib-adminclient.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/home1-oss/oss-lib-adminclient.git</developerConnection>
         <url>https://github.com/home1-oss/oss-lib-adminclient</url>
     </scm>
-    <issueManagement>
-        <system>GitHub Issues</system>
-        <url>https://github.com/home1-oss/oss-lib-adminclient/issues</url>
-    </issueManagement>
-    <ciManagement>
-        <system>Travis CI</system>
-        <url>https://travis-ci.org/home1-oss/oss-lib-adminclient</url>
-    </ciManagement>
 
     <modules>
         <module>oss-lib-adminclient-spring-boot-1.4.1.RELEASE</module>
@@ -36,6 +37,6 @@
     </modules>
 
     <properties>
-        <oss-common-dependencies.version>1.0.8.OSS-SNAPSHOT</oss-common-dependencies.version>
+        <oss-common-dependencies.version>1.0.8.OSS</oss-common-dependencies.version>
     </properties>
 </project>

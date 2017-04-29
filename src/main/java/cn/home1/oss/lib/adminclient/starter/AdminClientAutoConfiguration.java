@@ -1,11 +1,11 @@
-package com.yirendai.oss.lib.adminclient.starter;
+package cn.home1.oss.lib.adminclient.starter;
 
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
-import com.yirendai.oss.boot.autoconfigure.AppProperties;
-import com.yirendai.oss.lib.common.crypto.Cryptos;
-import com.yirendai.oss.lib.common.crypto.EncodeEncryptor;
+import cn.home1.oss.boot.autoconfigure.AppProperties;
+import cn.home1.oss.lib.common.crypto.Cryptos;
+import cn.home1.oss.lib.common.crypto.EncodeEncryptor;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,4 +1,4 @@
-package com.yirendai.oss.lib.adminclient.starter;
+package cn.home1.oss.lib.adminclient.starter;
 
 import lombok.extern.slf4j.Slf4j;
 
